@@ -29,8 +29,8 @@ self.addEventListener('fetch', function(event) {
                   //cache.addAll(), takes a list of URLs, then fetches them from the server and adds the response to the cache.
                   // add your entire site to the cache- as in the code below; for offline access
                   '/', // do not remove this
-                  '/index.html', //default
-                  '/index.html?homescreen=1', //default
+                  '/index.php', //default
+                  '/index.php?homescreen=1', //default
                   '/?homescreen=1', //default
                   'icons/icon-72x72.png', // add more icons path below as in this line. Check out the icons path in the icons folder.
 
