@@ -1,1 +1,0 @@
-# sandeepdesigns.github.io
